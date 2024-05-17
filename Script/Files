@@ -3,9 +3,9 @@
 apt update
 apt install sudo
 HOST='185.61.137.171';
-USER='daddyjoh_matthew_01';
-PASS='matthew_02';
-DBNAME='daddyjoh_matthewvpn';
+USER='daddyjoh_matthewnew';
+PASS='daddyjoh_matthewnew';
+DBNAME='daddyjoh_matthewnew';
 PORT_TCP='1194';
 PORT_UDP='110';
 PORT_SSL='443';
@@ -139,7 +139,7 @@ sudo cp /etc/apt/sources.list_backup /etc/apt/sources.list
 }
 
 #====================================================
-#	Installing OpenVPN
+#	Installing OPEN`VPN
 #	Finalized: Kent Louie Pitogo
 #====================================================
 
@@ -621,7 +621,7 @@ sudo service dropbear restart
 
 
 #====================================================
-#	Installing SlowDNS
+#	Installing SLOWDNS
 #	Finalized: Matthew VPN Developer
 #====================================================
 
@@ -716,7 +716,7 @@ OPENVPN SSL : $PORT_SSL
 HYSTERIA DETAILS
 -----------------------
 HYSTERIA UDP : 5666, 20000 - 50000
-OBFS: uniquehub
+OBFS: unique
 AUTH_STR: username:password
 
 -----------------------
@@ -813,7 +813,7 @@ systemctl start server-sldns
 }
 
 #====================================================
-#	Installing Hysteria UDP
+#	Installing HYSTERIA UDP
 #	Finalized: Kent Louie Pitogo
 #====================================================
 
@@ -829,7 +829,7 @@ echo '{
   "up_mbps": 100,
   "down_mbps": 100,
   "disable_udp": false,
-  "obfs": "uniquehub",
+  "obfs": "unique",
   "auth": {
     "mode": "external",
     "config": {
@@ -888,7 +888,7 @@ installBBR() {
 
 
 #====================================================
-#	Finalizing Server Setup
+#	Finalizing SERVER SETUP
 #	Finalized: Kent louie pitogo
 #====================================================
 
