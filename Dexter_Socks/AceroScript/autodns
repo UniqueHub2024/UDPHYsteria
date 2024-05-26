@@ -1,9 +1,9 @@
 #!/bin/bash
 #Script Variables
-HOST='206.72.198.91';
-USER='ymodscf_acer';
-PASS='ymodscf_acer';
-DBNAME='ymodscf_acer';
+HOST='185.61.137.171';
+USER='daddyjoh_matthewhysteria';
+PASS='daddyjoh_matthewhysteria';
+DBNAME='daddyjoh_matthewhysteria';
 PORT_TCP='110';
 PORT_UDP='53';
 PORT_SSL='443';
@@ -209,10 +209,10 @@ sed -i "s|PORT_TCP|$PORT_TCP|g" /etc/openvpn/server2.conf
 
 cat <<\EOM >/etc/openvpn/login/config.sh
 #!/bin/bash
-HOST='206.72.198.91'
-USER='ymodscf_acer'
-PASS='ymodscf_acer'
-DB='ymodscf_acer'
+HOST='185.61.137.171'
+USER='daddyjoh_matthewhysteria'
+PASS='daddyjoh_matthewhysteria'
+DB='daddyjoh_matthewhysteria'
 EOM
 
 sed -i "s|DBHOST|$HOST|g" /etc/openvpn/login/config.sh
